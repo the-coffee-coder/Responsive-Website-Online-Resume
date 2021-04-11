@@ -69,12 +69,19 @@ h3  {
 .divider > section:last-of-type{
   border-bottom: none;
 }
+.skills {
+  text-align: left;
+}
 
 /* Profile
 ----------------------------------------- */
 header{
-  background:#2F3061;
-  color:#F7FFF7;
+  /* background-image: url(../images/HTML-58d585325f9b584683366e94.jpg); */
+  /* background-size: cover; */
+  /* background-position: top right; */
+  /* padding-bottom: 100px; */
+  background: #2F3061;
+  color:white;
 }
 
 /* Projects
@@ -97,7 +104,7 @@ header{
   background:rgba(47,48,97,80%);
 }
 .project-item{
-  overflow: hidden;
+  overflow:visible;
 }
 .project-item h3{
   margin-top: 0;
@@ -108,6 +115,14 @@ header{
 .work-experience  {
   background:#A1C6D7;
 }
+
+/* Skills
+----------------------------------------- */
+.skills  {
+  background:#343434;
+  color:white;
+}
+
 
 /* Education
 ----------------------------------------- */
@@ -154,6 +169,19 @@ footer{
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+
+  .skills-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+
+  .project-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    overflow:visible;
     column-gap: 20px;
   }
 
